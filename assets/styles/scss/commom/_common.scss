@@ -1,0 +1,26 @@
+:root{
+    --bg_color:#fc45fc;
+    --sidebar_bg:#490449;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+    
+::-webkit-scrollbar{
+    width: 8px;
+    background: #ddd;
+    border-radius: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    background:var(--bg_color); 
+    border-radius: 10px;
+}
+
+}
